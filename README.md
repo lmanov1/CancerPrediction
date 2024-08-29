@@ -38,3 +38,8 @@ For each feature there are three related values: its mean , standart error (se) 
 ## Conclusion
 
 This project provides a comprehensive overview of the cancer prediction model development process. By following the notebooks in this project, users can gain insights into the data, select relevant features, train and evaluate models, and deploy the final model for practical use.
+
+
+## Intermidiate Files:
+https://drive.google.com/file/d/1evBRddDER4D3St13TbSksQdvcAUzl1tW/view?usp=sharing
+
