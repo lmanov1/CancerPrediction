@@ -43,3 +43,7 @@ This project provides a comprehensive overview of the cancer prediction model de
 ## Intermidiate Files:
 https://drive.google.com/file/d/1evBRddDER4D3St13TbSksQdvcAUzl1tW/view?usp=sharing
 
+## Breast cancer diagnosis can be predicted with roughly 95% accuracy using these 30 histological tumor characteristics.
+Machine learning algorithms that performed the best include linear models: logistic regression and linear discriminant analysis and two ensemble algorithms: random forest and an ensemble voting classifier.
+The most predictive features found with recursive feature elimination and cross validation using logistic regression as a classifier are: mean texture, perimeter and area, and worst texture, perimeter, and area.
+The most predictive features using random forest classification are: mean texture perimeter and area, fractal dimension, and worst area perimeter.
