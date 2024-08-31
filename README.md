@@ -23,27 +23,21 @@ For each feature there are three related values: its mean , standart error (se) 
 
 ## Notebooks
 
-1. **Data Preprocessing**: This notebook focuses on cleaning and preparing the dataset for model training. It includes steps such as handling missing values, feature scaling, and data normalization.
+1. **Data Preprocessing**: This notebook focuses on creating the dataset for model training - flat file with data
 
 2. **Exploratory Data Analysis (EDA)**: In this notebook, we explore the dataset to gain insights and understand the relationships between variables. We visualize the data using various plots and statistical analysis techniques.
 
-3. **Feature Selection**: This notebook deals with selecting the most relevant features for the prediction model. We use techniques like correlation analysis, feature importance, and dimensionality reduction algorithms.
+3. **Data cleansing** This notebook focuses on cleaning outliers , imputing missed values , working with text categories , so on
 
-4. **Model Training**: Here, we train different machine learning models on the preprocessed dataset. We compare their performance using evaluation metrics such as accuracy, precision, recall, and F1-score.
+4. **Feature Selection**: This notebook deals with selecting the most relevant features for the prediction model. We use techniques like correlation analysis, feature importance, and dimensionality reduction algorithms.
 
-5. **Model Evaluation**: This notebook focuses on evaluating the trained models using cross-validation techniques. We assess their generalization performance and identify the best-performing model.
+5. **Model Training and evalueation**: Here, we train different machine learning models on the preprocessed dataset. We compare their performance using evaluation metrics such as accuracy, precision, recall, and F1-score.
 
-6. **Model Deployment**: In this final notebook, we deploy the selected model and provide instructions on how to use it for cancer prediction. We also discuss potential future improvements and extensions to the project.
+    **Model Evaluation**: evaluating the trained models using cross-validation techniques. We assess their generalization performance and identify the best-performing model.
 
 ## Conclusion
 
 This project provides a comprehensive overview of the cancer prediction model development process. By following the notebooks in this project, users can gain insights into the data, select relevant features, train and evaluate models, and deploy the final model for practical use.
 
-
 ## Intermidiate Files:
 https://drive.google.com/file/d/1evBRddDER4D3St13TbSksQdvcAUzl1tW/view?usp=sharing
-
-## Breast cancer diagnosis can be predicted with roughly 95% accuracy using these 30 histological tumor characteristics.
-Machine learning algorithms that performed the best include linear models: logistic regression and linear discriminant analysis and two ensemble algorithms: random forest and an ensemble voting classifier.
-The most predictive features found with recursive feature elimination and cross validation using logistic regression as a classifier are: mean texture, perimeter and area, and worst texture, perimeter, and area.
-The most predictive features using random forest classification are: mean texture perimeter and area, fractal dimension, and worst area perimeter.
