@@ -17,7 +17,8 @@ Ten real-valued features were computed for each cell nucleus:
 7) concavity (severity of concave portions of the contour)   
 8) concave points (number of concave portions of the contour)    
 9) symmetry    
-10) fractal dimension ("coastline approximation" - 1)    
+10) fractal dimension ("coastline approximation" - 1)       
+
 For each feature above there are three related values: its mean , standart error (se) , and greatest value (worst - mean value of three largest values) , in this way there are total 30 features in a dataset plus an identification (observation id) field and the diagnosis field.   
 * Original Dataset is available at the UCA Machine Learning Repository:  https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
 
